@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    padding-top: 100px;
+    background: #26252a;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-agenda {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 20px;
+    border-color: #846dea;
+}
+
+.tabela {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    margin-top: -150px;
+    width: 100%;
+    padding: 40px 5px;
+    margin-left: 95px;
+    border: solid;
+    border-color: #846dea;
+    border-radius: 20px;
+    background: #2f2841;
+}
+
+thead > th {
+    text-indent: 15pt;
+}
+
+tbody {
+    text-indent: 12pt;
+}
+
+tbody td {
+    border-bottom: 1px solid #f0ffff94;
+    padding: 12pt;
+}
+
+tbody img {
+    cursor: pointer;
+}
+
+table {
+    color: #f0ffffde;
+    width: 100%;
+}
+
+.card-adiciona {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border: solid #846dea;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-left: 50px;
+}
+
+label {
+    color: #f69e4b;
+}
+
+.right-registro {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-contatos {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.left-contatos > h1 {
+    color: #f69e4b;
+    margin-bottom: 250px;
+
+}
+
+form > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+}
+
+button {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 8px;
+    height: 50px;
+    background-color: #f69e4b;
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 3px;
+    color: #4c3e87;
+}
+
+button:hover {
+    background-color: #dc791c;
+}
+
+form > input::placeholder {
+    color: #f0ffffc0;
+}
